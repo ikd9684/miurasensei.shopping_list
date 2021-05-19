@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+P.errorMsg{
+	text-align:center;
+}
+
+.left{
+	text-align:left;
+}
+
+.inputProduct{
+	width:200px;
+}
+
+.inputQuantity{
+	width:100px;
+}
+
+.inputNote{
+	width:200px;
+}
+
+.radioHidden{
+	visibility:hidden;
+}
+
+.tableList{
+	margin:0 auto;
+}
+
+.btn{
+	width:70px;
+}
+
+.tableRegister{
+	margin: 50px auto;
+}
+.bottombtn{
+	margin-top:100px;
+	text-align :center;
+}
+
+.center{
+	display:inline-block;
+}
+
+
+
+body{
+	background-color:#9DCCE0;
+}
