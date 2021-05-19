@@ -1,82 +1,100 @@
 package model;
 
 public class Goods {
-	private String uuid;
-	private String name;
-	private Integer number;
-	private String memo;
-	private String registeredDatetime;
-	private String purchasedDatetime;
-	private String updateDatetime;
 
+    private String uuid;
+    private String name;
+    private Integer number;
+    private String memo;
+    private String registeredDatetime;
+    private String purchasedDatetime;
+    private String updateDatetime;
 
-	public String getUuid() {
-		return uuid;
-	}
+    // FIXME JavaDoc コメント書きましょう
+    public String getUuid() {
 
-	public void setUuid(String uuid) {
-		this.uuid = uuid;
-	}
+        return uuid;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public void setUuid(String uuid) {
 
-	public void setName(String name) {
-		this.name = name;
-	}
+        this.uuid = uuid;
+    }
 
-	public Integer getNumber() {
-		return number;
-	}
+    public String getName() {
 
-	public void setNumber(Integer number) {
-		this.number = number;
-	}
+        return name;
+    }
 
-	public String getMemo() {
-		return memo;
-	}
+    public void setName(String name) {
 
-	public void setMemo(String memo) {
-		this.memo = memo;
-	}
+        this.name = name;
+    }
 
-	public String getRegisteredDatetime() {
-		return registeredDatetime;
-	}
+    public Integer getNumber() {
 
-	public String getPurchasedDatetime() {
-		return purchasedDatetime;
-	}
+        return number;
+    }
 
-	public String getUpdateDatetime() {
-		return updateDatetime;
-	}
+    public void setNumber(Integer number) {
 
-	public Goods() {}
+        this.number = number;
+    }
 
-	public void setRegisteredDatetime(String registeredDatetime) {
-		this.registeredDatetime = registeredDatetime;
-	}
+    public String getMemo() {
 
-	public void setPurchasedDatetime(String purchasedDatetime) {
-		this.purchasedDatetime = purchasedDatetime;
-	}
+        return memo;
+    }
 
-	public void setUpdateDatetime(String updateDatetime) {
-		this.updateDatetime = updateDatetime;
-	}
+    public void setMemo(String memo) {
 
-	public Goods(String uuid,String name,Integer number,String memo,String registeredDatetime,
-			String purchasedDatetime,String updateDatetime) {
-		this.uuid = uuid;
-		this.name = name;
-		this.number = number;
-		this.memo = memo;
-		this.registeredDatetime = registeredDatetime;
-		this.purchasedDatetime = purchasedDatetime;
-		this.updateDatetime = updateDatetime;
-	}
+        this.memo = memo;
+    }
+
+    public String getRegisteredDatetime() {
+
+        return registeredDatetime;
+    }
+
+    public String getPurchasedDatetime() {
+
+        return purchasedDatetime;
+    }
+
+    public String getUpdateDatetime() {
+
+        return updateDatetime;
+    }
+
+    public Goods() {
+
+    }
+
+    public void setRegisteredDatetime(String registeredDatetime) {
+
+        this.registeredDatetime = registeredDatetime;
+    }
+
+    public void setPurchasedDatetime(String purchasedDatetime) {
+
+        this.purchasedDatetime = purchasedDatetime;
+    }
+
+    public void setUpdateDatetime(String updateDatetime) {
+
+        this.updateDatetime = updateDatetime;
+    }
+
+    public Goods(String uuid, String name, Integer number, String memo, String registeredDatetime,
+            String purchasedDatetime, String updateDatetime) {
+
+        this.uuid = uuid;
+        this.name = name;
+        this.number = number;
+        this.memo = memo;
+        this.registeredDatetime = registeredDatetime;
+        this.purchasedDatetime = purchasedDatetime;
+        this.updateDatetime = updateDatetime;
+    }
 
 }
